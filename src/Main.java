@@ -11,15 +11,8 @@ public class Main {
     }
 
     public Main() {
-        Person[] peoples = new Person[10];
-        for(int i = 0; i < peoples.length; i++) {
-            peoples[i] = new Person("");
-        }
-
-        for(Person p : peoples) {
-            System.out.println(p.getPopulation());
-            System.out.println(p.getId());
-        }
+        SieveOfAtkin sieveOfAtkin = new SieveOfAtkin();
+        sieveOfAtkin.run();
 
 
 

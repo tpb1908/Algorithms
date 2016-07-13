@@ -69,16 +69,7 @@ public class FibonacciSearch implements Test {
         }
         return  -1;
     }
-	
-	public int[] values(int num) {
-		final int[] values = new int[(int)(Math.log10(n)+1)];
-		int i = 0;
-		while(num > 0) {
-			values[i++] = num%10;
-			num /= 10;
-		}
-		return values;
-	}
+
 	
 
 }
